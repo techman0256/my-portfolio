@@ -1,6 +1,7 @@
 @import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Fira+Code:wght@300..700&family=MonteCarlo&display=swap'); */
 @theme {
-  /* --font-primary: "MonteCarlo", "cursive"; */
+  --font-primary: "Fira Code", "monospace";
   --color-primary: #ABB2BF;
   --color-highlight: #C778DD;
   --color-primary-bg: #ABB2BF33;
@@ -10,7 +11,8 @@
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: var(--font-primary);
   line-height: 1.5;
   font-weight: 400;
 
