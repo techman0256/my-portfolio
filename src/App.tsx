@@ -3,6 +3,7 @@ import Home from './Home'
 import AboutMe from './AboutMe'
 import Navbar from './Navbar'
 import './App.css'
+import Projects from './Projects/projects'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Navbar></Navbar>
           <Routes>
             <Route path='/'  element={<Home></Home>}/>
+            <Route path='/projects' element={<Projects></Projects>}></Route>
             <Route path='/about-me'  element={<AboutMe></AboutMe>}/>
           </Routes>
 

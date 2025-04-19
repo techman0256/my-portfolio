@@ -9,8 +9,8 @@
     display: flex;
 }
 .img {
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
     align-self: self-end;
     background-size: contain;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .name {
     padding-left: 16px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     align-self: flex-start;
     cursor: pointer;
 }
@@ -35,7 +35,7 @@
     padding-left: 8px;
     padding-right: 8px;
     align-self: self-end;
-    font-size: 20px;
+    /* font-size: 24px; */
     color: gray;
 }
 .page:hover {

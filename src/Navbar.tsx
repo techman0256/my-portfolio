@@ -11,7 +11,7 @@ function Navbar() {
                 <span className='name'>Pranav</span>
             </div>
 
-            <div className='pages'>
+            <div className='pages sm:text-[16px] md:text-[20px] lg:text-[24px]'>
                 <NavLink className={({isActive}) => isActive ? "page active" : "page"} to="/">
                     <span className='hashtag'>#</span>home
                 </NavLink>
@@ -23,7 +23,8 @@ function Navbar() {
                 </NavLink>
                 <NavLink className={({isActive}) => isActive ? "page active" : "page"} to="/contacts">
                     <span className='hashtag'>#</span>contacts
-                </NavLink>                
+                </NavLink> 
+                <span className='text-primary'>EN </span>               
             </div>
         </div>
     )

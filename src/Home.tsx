@@ -10,7 +10,7 @@ function Home() {
                         Pranav is a <span className="text-highlight"> Full-Stack developer </span>  and <span className="text-highlight"> 
                             ML enthusiast </span></h2>
                     <h3 className="max-w-[464px] text-primary text-left font-regular text-[16px] mb-[36px]">He crafts responsive websites where technologies meet creativity</h3>
-                    <Button type="highlight" height="37px" width="148px">Contact Me !!</Button>
+                    <Button type="highlight">Contact Me !!</Button>
                 </div>
                 <div className="imageContainer flex flex-col items-center relative w-full sm:max-w-[457px] mx-auto ">
                     <img className="absolute inset-0 w-[35%] top-[20%] object-contain" src="Logo.png" alt="" />
