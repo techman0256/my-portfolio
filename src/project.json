@@ -1,0 +1,90 @@
+{
+    "completed_projects": [
+        {
+          "image": "https://picsum.photos/330/200",
+          "title": "ChertNodes",
+          "description": "Minecraft servers hosting",
+          "isLive": "https://github.com/techman0256/my-portfolio",
+          "github": "https://github.com/techman0256/my-portfolio",
+          "techstack": "HTML SCSS Python Flask"
+        },
+        {
+          "image": "https://picsum.photos/330/200",
+          "title": "Lenscape",
+          "description": "A minimalist Instagram-like app",
+          "isLive": "https://lenscape.vercel.app",
+          "github": "https://github.com/techman0256/lenscape",
+          "techstack": "React Tailwind MongoDB Ruby on Rails"
+        },
+        {
+          "image": "https://picsum.photos/330/201",
+          "title": "Job Portal",
+          "description": "Find and post jobs",
+          "isLive": "https://job-portal-app-3-1.onrender.com",
+          "github": "https://github.com/techman0256/job-portal",
+          "techstack": "Node.js Express MongoDB React"
+        },
+        {
+          "image": "https://picsum.photos/330/201",
+          "title": "Job Portal",
+          "description": "Find and post jobs",
+          "isLive": "https://job-portal-app-3-1.onrender.com",
+          "github": "https://github.com/techman0256/job-portal",
+          "techstack": "Node.js Express MongoDB React"
+        },
+        {
+          "image": "https://picsum.photos/330/201",
+          "title": "Job Portal",
+          "description": "Find and post jobs",
+          "isLive": "https://job-portal-app-3-1.onrender.com",
+          "github": "https://github.com/techman0256/job-portal",
+          "techstack": "Node.js Express MongoDB React"
+        }
+    ],
+    "small_projects": [
+        {
+            "title": "Bot boilerplate",
+            "description": "Start creating scalable discord.js bot with typescript in secondss",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "Discord.js TS JS"
+        },
+        {
+            "title": "My blog",
+            "description": "Front-end of my future blog website written in vue",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "VUE CSS JS"
+        },
+        {
+            "title": "Chess Pro",
+            "description": "Figma landing page about service for viewing chess tournaments",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "VUE CSS JS"
+        },
+        {
+            "title": "Crash protect website",
+            "description": "Figma template for website about anti-raid, anti-crash discord bot Lorem Ipsum dolor hbla ,,,,,aorieawire",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "Figma"
+        },
+        {
+            "title": "Bot boilerplate",
+            "description": "Start creating scalable discord.js bot with typescript in secondss",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "Discord.js TS JS"
+        },
+        {
+            "title": "My blog",
+            "description": "Front-end of my future blog website written in vue",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "VUE CSS JS"
+        },
+        {
+            "title": "Chess Pro",
+            "description": "Figma landing page about service for viewing chess tournaments",
+            "github": "https://github.com/techman0256/job-portal",
+            "techstack": "VUE CSS JS"
+        }
+    ]
+  
+}
+  

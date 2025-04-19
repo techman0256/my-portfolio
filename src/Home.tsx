@@ -35,6 +35,8 @@ function Home() {
                     - Dr. Who
                 </div>
             </div>
+
+            <div className="line"> <br></br></div>
         </div>
     )
 }

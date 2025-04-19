@@ -15,7 +15,7 @@ type StickyNoteProp = {
 function StickyNote({image, title, description, isLive, github, techstack, children, className} : StickyNoteProp) {
     
     return (
-        <div className={`w-[330px] t p-0 ${className}`}>
+        <div className={`w-full t p-0 ${className}`}>
             { image && (
                 <div className="border-1 border-primary border-b-0">
                     <img src={image} alt="" />
