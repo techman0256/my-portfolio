@@ -11,7 +11,7 @@ function PageHeader({pageName, description} : PageHeaderProps) {
             </div>
 
             {description && (
-                <p className="text-white text-[16px] font-regular"> {description} </p>
+                <p className="text-white text-[16px] font-regular text-left"> {description} </p>
             )}
         </div>
     )

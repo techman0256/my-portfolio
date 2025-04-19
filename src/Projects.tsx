@@ -1,7 +1,7 @@
-import PageHeader from "../utils/PageHeader";
-import Title from "../utils/Title";
-import StickyNote from "../utils/StickyNotes";
-import project from "../project.json"
+import PageHeader from "./utils/PageHeader";
+import Title from "./utils/Title";
+import StickyNote from "./utils/StickyNotes";
+import metadata from "./metadata.json"
 // import { useEffect, useState } from "react";
 
 // type Project = {
@@ -15,11 +15,9 @@ import project from "../project.json"
 //     className?: string
 //   };
 
-
-
 function Projects() {
-    const projectList = project.completed_projects;
-    const smallProjectList = project.small_projects;
+    const projectList = metadata.completed_projects;
+    const smallProjectList = metadata.small_projects;
     // const [projectList, setProjectList] = useState<Project[]>([]);
     // const [smallProjectList, setSmallProjectList] = useState<Project[]>([]);
 

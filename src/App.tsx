@@ -3,7 +3,7 @@ import Home from './Home'
 import AboutMe from './AboutMe'
 import Navbar from './Navbar'
 import './App.css'
-import Projects from './Projects/projects'
+import Projects from './Projects'
 
 function App() {
 

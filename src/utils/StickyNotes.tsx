@@ -9,7 +9,6 @@ type StickyNoteProp = {
     techstack: string
     children?: React.ReactNode
     className?: string
-
 }
 
 function StickyNote({image, title, description, isLive, github, techstack, children, className} : StickyNoteProp) {
@@ -18,10 +17,13 @@ function StickyNote({image, title, description, isLive, github, techstack, child
         <div className={`w-full t p-0 ${className}`}>
             { image && (
                 <div className="border-1 border-primary border-b-0">
-                    <img src={image} alt="" />
+                    <img className="w-full" src={image} alt="" />
                 </div>
             )}
-            <div className="techstack border-1 border-primary p-2 text-primary text-[16px] text-left font-regular">{techstack}</div>
+            { techstack && (
+                <div className="techstack border-1 border-primary p-2 text-primary text-[16px] text-left font-regular">{techstack}</div>
+
+            )}
             <div className="notes flex flex-col gap-4 text-left border-1 border-primary p-4">
                 <div className="title text-white text-[24px] font-medium">{title}</div>
                 <div className="description text-primary text-[16px] font-regular">{description}</div>
