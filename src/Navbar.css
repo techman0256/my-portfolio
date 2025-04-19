@@ -15,11 +15,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('Style=Default.svg');
+    background-image: url('Style=Default.svg') !important;
     cursor: pointer;
 }
 .img:hover {
-    background-image: url('Style=Outline.svg');
+    background-image: url('Style=Outline.svg') !important;
 }
 .name {
     padding-left: 16px;
