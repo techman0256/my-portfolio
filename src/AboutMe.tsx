@@ -32,7 +32,6 @@ function AboutMe() {
                         alt=""
                     />
                 </div>
-
             </div>
             <div className="">
                 <Title className="mt-[68px] mb-[48px]">skills</Title>

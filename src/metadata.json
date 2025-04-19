@@ -123,5 +123,30 @@
             "Built my first app using <span class='text-white'>Node Express</span> in college.",
             "I sleep a lot."
         ]
+    },
+    "contacts": {
+        "description" : "I’m interested in freelance/remote-working/full-time opportunities. However, if you have other request or question, don’t hesitate to contact me",
+        "links": [
+            {
+                "name": "Twitter",
+                "link": "https://x.com/PranavP70148",
+                "username": "@PranavP70148"
+            },
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/pranav916/",
+                "username": "pranav916"
+            },
+            {
+                "name": "GitHub",
+                "link": "https://github.com/techman0256",
+                "username": "techman0256"
+            },
+            {
+                "name": "Email",
+                "link": "mailto:patelpranav916@gmail.com",
+                "username": "patelpranav916@gmail.com"
+            }
+        ]
     }
 }
