@@ -3,105 +3,64 @@
         "primary_color": "#ABB2BF", 
         "highlight_color": "#C778DD"
     },
+    "basic_details": {
+        "name": "Pranav",
+        "role": "Pranav is a Full-Stack developer and ML enthusiast.",
+        "short_description": "He crafts responsive websites where technologies meet creativity."
+    },
     "completed_projects": [
         {
-          "image": "https://picsum.photos/330/200",
-          "title": "ChertNodes",
-          "description": "Minecraft servers hosting",
-          "isLive": "https://github.com/techman0256/my-portfolio",
-          "github": "https://github.com/techman0256/my-portfolio",
-          "techstack": "HTML SCSS Python Flask"
+            "image": "/Users/job_portal_app.png",
+            "title": "Job Portal App",
+            "description": "Platform for users to apply and companies to post job openings.",
+            "isLive": "https://job-portal-app-3-1.onrender.com",
+            "github": "https://github.com/techman0256/node-jobportal",
+            "techstack": "Node.js Express MongoDB SerpAPI JWT"
         },
         {
-          "image": "https://picsum.photos/330/200",
-          "title": "Lenscape",
-          "description": "A minimalist Instagram-like app",
-          "isLive": "https://lenscape.vercel.app",
-          "github": "https://github.com/techman0256/lenscape",
-          "techstack": "React Tailwind MongoDB Ruby on Rails"
+            "image": "/Users/lenscape.png",
+            "title": "Lenscape",
+            "description": "Instagram-like app with stories, posts, and messaging.",
+            "github": "https://github.com/techman0256/Lenscape-Backend",
+            "techstack": "React Tailwind MongoDB Ruby on Rails"
         },
         {
-          "image": "https://picsum.photos/330/201",
-          "title": "Job Portal",
-          "description": "Find and post jobs",
-          "isLive": "https://job-portal-app-3-1.onrender.com",
-          "github": "https://github.com/techman0256/job-portal",
-          "techstack": "Node.js Express MongoDB React"
-        },
-        {
-          "image": "https://picsum.photos/330/201",
-          "title": "Job Portal",
-          "description": "Find and post jobs",
-          "isLive": "https://job-portal-app-3-1.onrender.com",
-          "github": "https://github.com/techman0256/job-portal",
-          "techstack": "Node.js Express MongoDB React"
-        },
-        {
-          "image": "https://picsum.photos/330/201",
-          "title": "Job Portal",
-          "description": "Find and post jobs",
-          "isLive": "https://job-portal-app-3-1.onrender.com",
-          "github": "https://github.com/techman0256/job-portal",
-          "techstack": "Node.js Express MongoDB React"
+            "image": "/Users/step-by-step.png",
+            "title": "SBS Alumni Webstie",
+            "description": "Instagram-like app with stories, posts, and messaging.",
+            "isLive": "https://sbsalum.stepbystep.school/",
+            "techstack": "React Typescript HTML Tailwind CSS "
         }
     ],
     "small_projects": [
         {
-            "title": "Bot boilerplate",
-            "description": "Start creating scalable discord.js bot with typescript in secondss",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "Discord.js TS JS"
+            "title": "Bitcoin Price Predictor",
+            "description": "RNN-based model to predict BTC prices using live Binance data.",
+            "techstack": "Python Streamlit TensorFlow Binance API"
         },
         {
-            "title": "My blog",
-            "description": "Front-end of my future blog website written in vue",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "VUE CSS JS"
+            "title": "BIFI: Break It Fix.",
+            "description": "Implemented the BIFI framework for unsupervised program repair, training Seq2Seq neural models to generate and fix buggy Python code using the GitHub-Python dataset and the Fairseq library.",
+            "techstack": "Python Fairseq NLP"
         },
         {
-            "title": "Chess Pro",
-            "description": "Figma landing page about service for viewing chess tournaments",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "VUE CSS JS"
-        },
-        {
-            "title": "Crash protect website",
-            "description": "Figma template for website about anti-raid, anti-crash discord bot Lorem Ipsum dolor hbla ,,,,,aorieawire",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "Figma"
-        },
-        {
-            "title": "Bot boilerplate",
-            "description": "Start creating scalable discord.js bot with typescript in secondss",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "Discord.js TS JS"
-        },
-        {
-            "title": "My blog",
-            "description": "Front-end of my future blog website written in vue",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "VUE CSS JS"
-        },
-        {
-            "title": "Chess Pro",
-            "description": "Figma landing page about service for viewing chess tournaments",
-            "github": "https://github.com/techman0256/job-portal",
-            "techstack": "VUE CSS JS"
+            "title": "Frequent Itemset Mining using Spark-based YAFIM.",
+            "description": "Implemented the Apriori algorithm and studied the YAFIM (Yet Another Frequent Itemset Mining) algorithm for mining frequent itemsets from large, high-dimensional datasets using pyspark.",
+            "techstack": "Python Apache Spark Big Data"
         }
     ],
     "about_me": {
-        "text": ["Hello, i’m Elias!", 
-                "I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks."
+        "text": ["I’m a self-taught full-stack developer and machine learning enthusiast based in India, currently pursuing B.Tech in Mathematics and Computing. I enjoy building scalable web applications and exploring the intersection of software engineering and AI.", 
+                "Always curious and eager to learn, I continuously explore new technologies in both web development and AI to stay on the cutting edge. "
         ],
         "skills": [
             {
                 "domain" : "Language",
-                "list": ["JavaScript", "Python", "TypeScript", "Ruby", "C++"] 
+                "list": ["Java", "JavaScript", "Python", "Ruby", "C++"] 
             },
             {
                 "domain": "Tools",
-                "list": ["Git", "VS Code", "Postman", "Figma", "Docker"]
+                "list": ["Git", "VS Code", "Postman", "Docker"]
             },
             {
                 "domain": "Database",
@@ -109,11 +68,11 @@
             },
             {
                 "domain": "Frameworks",
-                "list": ["React", "Next.js", "Ruby on Rails", "Express", "Tailwind CSS"]
+                "list": ["React", "Node", "Ruby on Rails", "PySpark", "Express"]
             },
             {
                 "domain": "Other",
-                "list": ["Linux", "Firebase", "REST API", "CI/CD", "Netlify"]
+                "list": ["Linux", "REST API"]
             }
         ],
         "fun_facts":[
