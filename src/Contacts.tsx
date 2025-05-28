@@ -1,6 +1,5 @@
 import PageHeader from "./utils/PageHeader";
 import Title from "./utils/Title";
-import Input from "./utils/Input"
 import metadata from "./metadata.json"
 
 const Icons: Record<string, string> = {
