@@ -24,7 +24,7 @@ function Navbar() {
                 <NavLink className={({isActive}) => isActive ? "page active" : "page"} to="/contacts">
                     <span className='hashtag'>#</span>contacts
                 </NavLink> 
-                <span className='text-primary'>EN </span>               
+                {/* <span className='text-primary'>EN </span>                */}
             </div>
         </div>
     )
