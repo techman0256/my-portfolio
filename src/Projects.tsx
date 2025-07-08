@@ -33,17 +33,17 @@ function Projects() {
             </div>
             <div className="">
                 <Title className="mt-[68px] mb-[48px]">complete-apps</Title>
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto px-4">
                    {projectList.map((project, index) => {
-                        return <StickyNote key={index} {...project} />
+                        return <div className="min-w-[250px]"><StickyNote key={index} {...project} /></div>
                     })}
                 </div>
             </div>
             <div>
                 <Title className="mt-[68px] mb-[48px]">small-projects</Title>
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto px-4">
                     {smallProjectList.map((project, index) => {
-                        return <StickyNote key={index} {...project} />
+                        return <div className="min-w-[250px]"><StickyNote key={index} {...project} /></div>
                     })}
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import Button from "./Button";
+import LazyImage from "./LazyImage";
 
 type StickyNoteProp = {
     image?: string
@@ -17,12 +18,11 @@ function StickyNote({image, title, description, isLive, github, techstack, child
         <div className={`w-full t p-0 ${className}`}>
             { image && (
                 <div className="border-1 border-primary border-b-0">
-                    <img className="w-full" src={image} alt="" />
+                    <LazyImage className="w-full" src={image} alt={`${title} project screenshot`} />
                 </div>
             )}
             { techstack && (
                 <div className="techstack border-1 border-primary p-2 text-primary text-[16px] text-left font-regular">{techstack}</div>
-
             )}
             <div className="notes flex flex-col gap-4 text-left border-1 border-primary p-4">
                 <div className="title text-white text-[24px] font-medium">{title}</div>
@@ -42,9 +42,7 @@ function StickyNote({image, title, description, isLive, github, techstack, child
                         </a>
                     )}
                 </div>
-
             </div>
-            {/* <div></div> */}
         </div>
     )
 }
