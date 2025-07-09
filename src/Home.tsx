@@ -1,10 +1,23 @@
+import React, { useState, useEffect } from 'react';
 import Button from "./utils/Button";
 import LazyImage from "./utils/LazyImage";
 import metadata from "./metadata.json";
+// import { Typewriter } from 'react-simple-typewriter';
+import { useTypewriter } from 'react-simple-typewriter';
 
 // max-w-[537px] max-h-[227px]
 function Home() {
     const email = metadata.contacts.links.find(link => link.name.toLowerCase() === 'email')?.username || '';
+    const [text] = useTypewriter({
+        words: [
+            'responsibility',
+            'electricity bill ⚡️'
+        ],
+        loop: 1,
+        typeSpeed: 70,
+        deleteSpeed: 50,
+        delaySpeed: 1200,
+    });
     return (
         <div className="heroContainer flex-col space-y-[112px] mt-[62px] ">
             <div className="flex flex-col md:flex-row md:justify-between md:space-x-8 space-y-8 md:space-y-0">
@@ -34,7 +47,9 @@ function Home() {
             <div className="quote flex flex-col w-fit mx-auto hidden md:flex">
                 <div className="relative p-8 border-1 w-fit self-center border-primary">
                     <span className="absolute -top-6 left-5 text-[60px] text-primary">“</span>
-                    <span className="text-white text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px]">With great power comes great electricity bill</span>
+                    <span className="text-white text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px]">
+                        With great power comes great {text}
+                    </span>
                 </div>
                 <div className="relative p-4 border-1 border-primary self-end w-fit text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px]"> 
                     <span className="absolute -top-6 left-5 text-[60px] text-primary">“</span>
