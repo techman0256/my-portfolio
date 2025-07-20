@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import Button from "./utils/Button";
 import LazyImage from "./utils/LazyImage";
 import metadata from "./metadata.json";
-// import { Typewriter } from 'react-simple-typewriter';
-import { useTypewriter } from 'react-simple-typewriter';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
-// max-w-[537px] max-h-[227px]
 function Home() {
     const email = metadata.contacts.links.find(link => link.name.toLowerCase() === 'email')?.username || '';
     const [text] = useTypewriter({
         words: [
-            'responsibility',
+            'responsibility ❌',
             'electricity bill ⚡️'
         ],
         loop: 1,
@@ -19,7 +17,7 @@ function Home() {
         delaySpeed: 1200,
     });
     return (
-        <div className="heroContainer flex-col space-y-[112px] mt-[62px] ">
+        <div className="heroContainer flex-col space-y-[60px] mt-[62px] ">
             <div className="flex flex-col md:flex-row md:justify-between md:space-x-8 space-y-8 md:space-y-0">
                 <div className="flex flex-col text-header justify-center items-start">
                     <h2 className="max-w-[90%] md:max-w-[537px] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] text-left font-semibold mb-8 leading-sung">
@@ -49,6 +47,7 @@ function Home() {
                     <span className="absolute -top-6 left-5 text-[60px] text-primary">“</span>
                     <span className="text-white text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px]">
                         With great power comes great {text}
+                        <Cursor cursorStyle="|" />
                     </span>
                 </div>
                 <div className="relative p-4 border-1 border-primary self-end w-fit text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px]"> 
