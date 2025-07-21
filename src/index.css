@@ -7,7 +7,7 @@
   --color-primary-bg: #ABB2BF33;
   --color-highlight-bg: #C778DD33;
   --color-header: #FFFFFF;
-  --color-bg-theme: #282C33;
+  --color-bg-theme: #0f172a;
 }
 
 :root {
@@ -36,7 +36,6 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
   /* place-items: center; */
   min-width: 320px;

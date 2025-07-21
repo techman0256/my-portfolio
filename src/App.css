@@ -1,12 +1,12 @@
 #root {
   width: 100%;
-  margin: 0 auto;
-  /* padding: 2rem; */
-  margin-left: 11.32%;
-  margin-right: 11.32%;
+  margin: 0;
   text-align: center;
 }
-
+.route-content {
+  margin-left: 11.32%;
+  margin-right: 11.32%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 768px) {
-  #root {
+  .route {
     margin-left: 0;
     margin-right: 0;
   }

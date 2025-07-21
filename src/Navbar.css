@@ -6,7 +6,6 @@
     align-items: center;
     position: relative;
     z-index: 50;
-    background-color: var(--color-bg-theme); /* ensure consistent background */
 }
 .nav-logo {
     display: flex;
