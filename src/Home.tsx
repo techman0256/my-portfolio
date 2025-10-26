@@ -30,7 +30,15 @@ function Home() {
                 </div>
                 <div className="imageContainer flex flex-col items-center relative w-full sm:max-w-[457px] mx-auto ">
                     <LazyImage className="absolute inset-0 w-[35%] top-[20%] object-contain" src="Logo.png" alt="Logo" />
-                    <LazyImage className="absolute z-10 relative w-[100%]" src="heroImage.png" alt="Hero" />
+                    <LazyImage className="absolute z-0 relative w-[80%] aspect-square object-cover rounded-full border-2 border-primary/30 shadow-lg shadow-primary/20" src="GhibliHero.png" alt="Hero" />
+                    {/* Mirror effect - bottom half of image with soft faded edges */}
+                    <div className="absolute z-[-1] w-[80%] h-[40%] top-[80%] transform scale-y-[-1] opacity-10 overflow-hidden rounded-b-full blur-[0.5px]">
+                        <LazyImage className="w-full h-[200%] object-cover object-bottom" src="GhibliHero.png" alt="Hero Mirror" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent"></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-transparent" style={{
+                            background: 'radial-gradient(ellipse at center, transparent 60%, black 85%)'
+                        }}></div>
+                    </div>
                     <LazyImage className="absolute z-20 left-[77%] top-[40%] sm:top-[35%] md:top-[50%] lg:top-[55%] w-[20%]" src="Dots.png" alt="Decoration dots" />
                     <div className="flex border-1 border-primary my-2 p-2 mx-auto">
                         <div className="w-4 h-4 bg-highlight align-center"> </div>

@@ -23,10 +23,6 @@ function Contacts() {
                 <div className="text-left">
                     {description}
                 </div>
-                {/* <div className="">
-                    <Input></Input>
-                    <div></div>
-                </div> */}
             </div>
             <div>
                 <Title className="mt-[68px] mb-2">social-media</Title>
